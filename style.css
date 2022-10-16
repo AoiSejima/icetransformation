@@ -1,0 +1,74 @@
+body {
+    font-family: 'fino', 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    font-size: 13rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.705);
+    margin: 2rem auto -2rem 4rem;
+    letter-spacing: 25rem;
+}
+
+.js-container {
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 6rem;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.js-filter  {
+    position: fixed;
+    margin-top: 3rem;
+    margin-left: -26.7rem;
+    font-size: 2rem;
+}
+
+span {
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.gem-container {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
+}
+.gem-container:hover {
+    box-shadow: 0px 0px 80px rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+.gem-title {display: none;}
+.gem-title.active {display: block;}
+
+.gem-shape {display: none;}
+.gem-shape.active {display: block;}
+
+.gem-color {display: none;}
+.gem-color.active {display: block;}
+
+.js-reset {
+    border: 3px solid white;
+    padding: 1rem;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media only screen and (max-width: 812px) {  
+    
+}
