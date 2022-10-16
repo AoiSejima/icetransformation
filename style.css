@@ -1,72 +1,50 @@
 body {
-    font-family: 'fino', 'Times New Roman', Times, serif;
+    font-family: dunbar-tall, sans-serif;
     margin: 0 auto;
+	padding:0;
     background-color: rgb(0, 0, 0);
     color: white;
+	background-image: url('./assets/ice_01_ceramicPlate/ice_01_ceramicPlate-01.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 50%;
+	transition: 600ms ease-in-out;
 }
-
-h1 {
-    font-size: 13rem;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.705);
-    margin: 2rem auto -2rem 4rem;
-    letter-spacing: 25rem;
+h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+	position: fixed;
+	top: 10vh;
+	left: 10vw;
 }
-
-.js-container {
-    width: 40%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 6rem;
-    margin: auto;
-    padding-top: 5rem;
-    padding-bottom: 6rem;
-    text-align: center;
+h3 {
+    font-size: 14pt;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 10pt;
+    text-transform: uppercase;
+	position: flex;
+	float: right;
+	margin-right: 10vw;
 }
-
-.js-filter  {
-    position: fixed;
-    margin-top: 3rem;
-    margin-left: -26.7rem;
-    font-size: 2rem;
+section{
+	width: 100vw;	
+	height: 100vh;
+	min-height: 1vh;
+	margin-top: 100vh;
 }
+/* img {
+	width: 20vw;
+	object-fit: cover;
 
-span {
-    display: block;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    line-height: 2rem;
-}
-
-.gem-container {
-    width: 100%;
-    border-radius: 10px;
-    margin: auto;
-}
-.gem-container:hover {
-    box-shadow: 0px 0px 80px rgb(255, 255, 255);
-    transition: all 0.2s ease-in-out;
-}
-
-.gem-title {display: none;}
-.gem-title.active {display: block;}
-
-.gem-shape {display: none;}
-.gem-shape.active {display: block;}
-
-.gem-color {display: none;}
-.gem-color.active {display: block;}
-
-.js-reset {
-    border: 3px solid white;
-    padding: 1rem;
-}
-
-img {
-    width: 80%;
-    height: auto;
-    display: block;
-    margin: auto;
+} */
+.content{
+	min-height: 70vh;
 }
 
 @media only screen and (max-width: 812px) {  
